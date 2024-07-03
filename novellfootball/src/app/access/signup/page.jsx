@@ -138,7 +138,7 @@ const Signup = () => {
     const router = useRouter();
     const [getVerification, updateGetVerif] = useState(false);
     const [isInternational, updtInternational] = useState(false);
-    const [isVerified, setVerified] = useState(false);
+    const [isVerified, setVerified] = useState(true);
     const [isDisabled, setPhoneDisabled] = useState(false);
     const [isEmailDisabled, setEmailDisabled] = useState(false);
 
@@ -312,7 +312,7 @@ const Signup = () => {
                             <div className="mt-0 flex shadow-sm relative">
                                 <div className="absolute top-0 flex justify-center items-center left-0 h-full aspect-square px-1.5 py-1.5 "></div>
                                 <div className="absolute top-0 flex justify-center items-center right-0  h-full aspect-square px-1.5 py-1.5 ">
-                                    {credentials.Phone &&
+                                    {/* {credentials.Phone &&
                                     credentials.Phone.length >= 12 ? (
                                         <div
                                             className={` py-[1px] px-[1px] bg-gradient-to-r ${
@@ -348,7 +348,7 @@ const Signup = () => {
                                             className="z-[10]"
                                             height={20}
                                         ></Image>
-                                    )}
+                                    )} */}
                                 </div>
                                 <PhoneInput
                                     country={"in"}
@@ -390,7 +390,7 @@ const Signup = () => {
                                     ></Image>
                                 </div>
                                 <div className="absolute top-0 flex justify-center items-center right-0  h-full aspect-square px-1.5 py-1.5 ">
-                                    {credentials.Email &&
+                                    {/* {credentials.Email &&
                                     credentials.Email.length >= 3 ? (
                                         <div className=" py-[1px] px-[1px] bg-gradient-to-r from-blue-500 to-black  rounded-md flex items-center justify-center">
                                             <button
@@ -407,7 +407,7 @@ const Signup = () => {
                                             width={20}
                                             height={20}
                                         ></Image>
-                                    )}
+                                    )} */}
                                 </div>
                                 <input
                                     id="Email"

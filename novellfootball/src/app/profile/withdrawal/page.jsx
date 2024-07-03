@@ -252,7 +252,7 @@ function Page() {
                                 </div>
                             </div>
                         </div>
-                        <div
+                        {/* <div
                             onClick={getEditOtp}
                             className="absolute top-2 right-2 text-center "
                         >
@@ -262,7 +262,7 @@ function Page() {
                             <p className="capitalize text-[0.5rem] text-white font-bold">
                                 edit
                             </p>
-                        </div>
+                        </div> */}
 
                         <div
                             onClick={() => {
